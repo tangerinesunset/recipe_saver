@@ -1,5 +1,55 @@
-#main-banner
-{
-    height: 200px;
-    width: 500px;
+* { /*http://learnlayout.com/box-sizing.html*/
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffe5c3;
+}
+
+/* NAVBAR */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f08831;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #de6f13;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto; 
+    background-color: #ffffff;
+}
+
+#main-banner {
+    height: 100%;
+    width: 100%;
+}
+
+.div1 {
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+  margin: 1em;
 }
