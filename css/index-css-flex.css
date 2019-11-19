@@ -1,8 +1,10 @@
-* { /*http://learnlayout.com/box-sizing.html*/
-  -webkit-box-sizing: border-box;
+/*
+* { /*http://learnlayout.com/box-sizing.html
+    -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
+*/
 
 body {
   margin: 0;
@@ -10,7 +12,7 @@ body {
   background-color: #ffe5c3;
 }
 
-/* NAVBAR */
+/* ==== NAVBAR ==== */
 ul {
   list-style-type: none;
   margin: 0;
@@ -36,18 +38,24 @@ li a:hover {
   background-color: #de6f13;
 }
 
+/* ==== MAIN ==== */
+
 main {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto; 
     background-color: #ffffff;
 }
 
-#main-banner {
-    height: 100%;
-    width: 100%;
+[src="img/holiday-dinner-banner-fit.jpg"] {
+  height: 100%;
+  width: 100%;
 }
 
-.div1 {
+.appetizer-container {
+  display: flex;
+}
+
+.recipe-block {
   display: inline-block;
   width: 200px;
   height: 100px;
