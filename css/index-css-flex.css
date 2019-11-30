@@ -51,13 +51,23 @@ main {
   width: 100%;
 }
 
-.appetizer-container {
+h2 {
+  margin: 10px 20px;
+}
+
+.recipe-container {
+  height: 100%;
   display: flex;
+  flex-flow: row wrap; /*row orders items from left to right while wrap allows items to "continue" */
+  justify-content: space-evenly;
 }
 
 .recipe-block {
-  display: inline-block;
-  width: 200px;
-  height: 100px;
-  margin: 1em;
+  background-color: #ffe5c3;
+  /* border: 1px solid #de6f13; */
+  text-align: center;
+  width: 250px;
+  height: 300px;
+  padding: 10px;
+  margin: 5px auto;
 }
